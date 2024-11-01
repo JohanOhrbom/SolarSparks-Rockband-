@@ -103,6 +103,10 @@ li a:hover{
 }
 
 /* -----MEMBERS IMAGES----- */
+.members-container{
+    margin-bottom: 60%;
+}
+
 .members-images-container{
     display: flex;
     align-items: center;
@@ -223,7 +227,7 @@ form button:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 60%;
+    margin-bottom: 75%;
     margin-top: 5%;
 }
 
