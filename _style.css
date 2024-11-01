@@ -143,3 +143,69 @@ li a:hover{
     width: 30px;
     height: auto;
 }
+/* -------BOOKING------- */
+.booking-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60%;
+}
+
+.booking-container-content{
+    background-color: white;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 0px 4px 10px #0000001a;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.booking-headers{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form input:focus, form select:focus, form textarea:focus {
+    border-color: #6c63ff;
+    outline: none;
+    box-shadow: 0px 0px 4px #6c63ff66;
+}
+
+form button {
+    width: 100%;
+    padding: 12px;
+    background-color: #444444;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #aaaaaa;
+}
+
+.booking-rock-icon-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    margin-bottom: 70%;
+}
