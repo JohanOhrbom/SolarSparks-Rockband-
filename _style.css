@@ -26,11 +26,12 @@ header{
 
 .nav{
     display:flex;
-    margin-top: -50px;
+    margin-top: -4%;
     margin-bottom: 15px;
     flex-direction: row;
     column-gap: 12%;
-    margin-inline-start: 12.5%;
+    align-items: center;
+    justify-content: center; 
 }
 
 .nav-current-page{
@@ -332,7 +333,7 @@ textarea {
 }
 
 .contact-headers h1{
-    font-size:60px;
+    font-size:50px;
 }
 
 .contact-socials{
