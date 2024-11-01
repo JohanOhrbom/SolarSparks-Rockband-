@@ -170,6 +170,7 @@ li a:hover{
     margin-top: 5%;
 }
 
+
 form input, form select, form textarea {
     width: 100%;
     padding: 10px;
@@ -280,7 +281,7 @@ tr:hover {
     align-items: center;
     justify-content: center;
     margin-bottom: 60%;
-    margin-top: 10%;
+    margin-top: 5%;
 }
 
 .contact-container-content {
@@ -324,4 +325,29 @@ textarea {
 textarea {
     resize: vertical;
     min-height: 100px;
+}
+
+.contact-headers{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.contact-headers h1{
+    font-size:60px;
+}
+
+.contact-socials{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 3%;
+    gap: 150px;
+
+}
+
+.contact-imgs{
+    width: 100px;
+    height: auto;
 }
